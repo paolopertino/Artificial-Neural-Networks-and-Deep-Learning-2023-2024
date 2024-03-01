@@ -1,5 +1,5 @@
 # Artificial Neural Networks and Deep Learning-2023/2024
-<img src="./Assets/banner.png" width="100%"/>
+<img src="./Assets/bannerAN2DL.png" width="100%"/>
 
 Repository of the `Artificial Neural Networks and Deep Learning (AN2DL)` project with focus in **Image Classification** and **Time Series Forecasting**. The associated challenge was hosted on CodaLab platform.
 
@@ -115,15 +115,31 @@ This homework addresses the challenge of time series forecasting using various d
 
 
 ## Requirements & Installation
-
+To install this project dependencies please run the following command:
+```bash
+pip install -r requirements.txt
+```
 
 ## Folder structure
 <pre>
-
+├── Assets
+│   └── bannerAN2DL.png
+├── Homework 1 - Plant Images Classification
+│   ├── ANNDL-Homework1-Report.pdf
+│   └── Homework_1.ipynb
+├── Homework 2 - Time Series Forecasting
+│   ├── ANNDL-Homework2-Report.pdf
+│   └── Homework_2.ipynb
+├── README.md
+└── requirements.txt
 </pre>
 
 ## References
-[1] Gaussian Process Optimization in the Bandit Setting: No Regret and Experimental Design,  Srinivas et al. (2010), https://arxiv.org/pdf/0912.3995.pdf
+[1] Oreshkin, B. N., Carpov, D., Chapados, N., & Bengio, Y. (2020). N-BEATS: Neural basis expansion analysis for interpretable time series forecasting. International Conference on Learning Representations. https://www.openreview.net/pdf?id=r1ecqn4YwB
+
+[2] Remy, P. (2020). N-BEATS: Neural basis expansion analysis for interpretable time series forecasting. In GitHub repository. GitHub. https://github.com/philipperemy/n-beats
+
+[3] Cote, D. (2022) Hands-On Advanced Deep Learning Time Series Forecasting with Tensors, Medium. Available at: https://medium.com/@dave.cote.msc/hands-on-advanced-deep-learning-time-series-forecasting-with-tensors-7facae522f18
 
 
 
